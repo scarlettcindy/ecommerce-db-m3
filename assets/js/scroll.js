@@ -1,15 +1,13 @@
 console.log("Desde el script externo");
 
-const boton = document.getElementById("btn-arriba");
+let boton = document.getElementById("btn-arriba");
 
-if (boton) {
-  boton.onclick = function () {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  };
-}
+boton.onclick = function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+};
 
 window.addEventListener("scroll", function () {
   if (window.scrollY > 300) {

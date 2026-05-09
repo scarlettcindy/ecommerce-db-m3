@@ -28,47 +28,14 @@
 
       <div class="collapse navbar-collapse" id="navbarKlicalia">
         <div class="navbar-desktop-layout w-100">
-
           <ul class="navbar-nav menu-centro mb-3 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Recursos
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Lectoescritura</a></li>
-                <li><a class="dropdown-item" href="#">Matemática</a></li>
-                <li><a class="dropdown-item" href="#">Ciencias</a></li>
-                <li><a class="dropdown-item" href="#">Ver todos</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Packs
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Preescolar</a></li>
-                <li><a class="dropdown-item" href="#">Niños</a></li>
-                <li><a class="dropdown-item" href="#">Adolescentes</a></li>
-                <li><a class="dropdown-item" href="#">Ver todos</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tienda</a>
-            </li>
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#talleres">Talleres</a></li>
+            <li class="nav-item"><a class="nav-link" href="carrito.html">Carrito</a></li>
+            <li class="nav-item"><a class="nav-link" href="#footer">Contacto</a></li>
           </ul>
 
           <div class="acciones-navbar">
-            <form class="d-flex buscador-klicalia" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
-
             <div class="iconos-navbar">
               <a href="#" class="icono-nav">
                 <i class="fa-regular fa-heart"></i>
@@ -81,10 +48,9 @@
               </a>
             </div>
 
-            <a href="login.html" class="btn-login">Iniciar sesión</a>
-            <a href="registro.html" class="btn-registro">Registrarse</a>
+            <a href="#" class="btn-login">Iniciar sesión</a>
+            <a href="#" class="btn-registro">Registrarse</a>
           </div>
-
         </div>
       </div>
     </div>
@@ -97,23 +63,60 @@
         <div class="col-lg-8">
           <section class="carrito-listado">
             <h1 class="carrito-titulo">Carrito</h1>
+            <p class="carrito-subtitulo">
+              <span id="cantidad-items-texto">1</span> taller en tu carrito
+            </p>
 
-            <p class="carrito-subtitulo" id="cantidad-carrito"></p>
+            <div id="lista-carrito">
 
-            <div id="lista-carrito"></div>
+              <article class="item-carrito" data-precio="4990">
+                <div class="item-imagen">
+                  <img src="assets\images\arrangement-different-letters-speech-therapy-sessions.jpg" alt="Taller de lectoescritura">
+                </div>
+
+                <div class="item-info">
+                  <h2>Taller de lectoescritura inicial</h2>
+                  <p class="item-autor">Por Klicalia</p>
+
+                  <div class="item-meta">
+                    <span class="item-badge">Destacado</span>
+                    <span>4.9 ★★★★★</span>
+                  </div>
+
+                  <div class="item-detalles">
+                    <span>Material imprimible</span>
+                    <span>•</span>
+                    <span>Acceso digital</span>
+                    <span>•</span>
+                    <span>Nivel inicial</span>
+                  </div>
+                </div>
+
+                <div class="item-acciones">
+                  <button class="btn-eliminar-item">Eliminar</button>
+                  <button class="btn-guardar-item">Guardar para después</button>
+                </div>
+
+                <div class="item-precio">
+                  <span class="precio-actual-item">$4.990</span>
+                  <span class="precio-antiguo-item">$7.990</span>
+                </div>
+              </article>
+
+            </div>
           </section>
         </div>
 
         <div class="col-lg-4">
           <aside class="resumen-carrito">
             <h3>Total:</h3>
-            <div class="resumen-total" id="total-carrito">$0</div>
-            <div class="resumen-antiguo"></div>
+            <div class="resumen-total" id="resumen-total">$4.990</div>
+            <div class="resumen-antiguo">$7.990</div>
             <div class="resumen-descuento">Ahorro en precio promocional</div>
 
             <button class="btn-pagar">Proceder al pago <i class="fa-solid fa-arrow-right"></i></button>
 
-            <p class="resumen-texto">Aún no se realiza ningún cobro.</p>
+            <p class="resumen-texto">Aún no se realiza ningún cobro. Este es un carrito simulado.</p>
 
             <button class="btn-cupon">Aplicar cupón</button>
           </aside>
@@ -159,6 +162,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/scroll.js"></script>
-  <script src="assets/js/carrito.js"></script>
+  <script src="assets/js/carrito-pagina.js"></script>
 </body>
 </html>
