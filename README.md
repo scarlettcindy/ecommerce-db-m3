@@ -46,6 +46,13 @@ Klicalia está orientada a:
 ## Alcance del MVP
 El proyecto incluye una estructura mínima de ecommerce educativo con navegación funcional entre Home, detalle de producto, carrito y contacto. No incorpora sistema de pago real ni backend, ya que se trata de un frontend MVP.
 
+## Enlace al repositorio público
+
+https://github.com/scarlettcindy/ecommerce-frontend-m2.git
+
+https://github.com/scarlettcindy/ecommerce-frontend-m2
+
+
 ## Estructura del proyecto
 ```bash
 assets/
@@ -77,3 +84,6 @@ README.md
 
 ## Autor
 Scarlett Monsalve
+
+
+
