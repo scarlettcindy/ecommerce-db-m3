@@ -4,18 +4,18 @@ Proyecto de base de datos relacional para un ecommerce de cursos y talleres digi
 
 ## Estructura
 
-- `/sql/schema.sql`: crea las tablas con PK, FK y restricciones.
-- `/sql/seed.sql`: inserta datos de prueba.
-- `/sql/queries.sql`: contiene consultas SQL y una transacción.
-- `/docs/er.png`: diagrama entidad-relación.
-- `/docs/consulta1.png` a `/docs/consulta4.png`: evidencias de consultas ejecutadas.
+- `Portafolio modulo 3\SQL\schema.sql`: crea las tablas con PK, FK y restricciones.
+- `Portafolio modulo 3\SQL\seed.sql`: inserta datos de prueba.
+- `Portafolio modulo 3\SQL\queries.sql`: contiene consultas SQL y una transacción.
+- `Portafolio modulo 3\Doc\diagrama del modelo relacional del ecommerce.pdf`: diagrama entidad-relación.
+- `Portafolio modulo 3\Consultas.pdf`: evidencias de consultas ejecutadas.
 
 ## Instrucciones de ejecución
 
 1. Crear una base de datos en PostgreSQL llamada `ecommerce_klicalia`.
-2. Ejecutar el archivo `sql/schema.sql`.
-3. Ejecutar el archivo `sql/seed.sql`.
-4. Ejecutar el archivo `sql/queries.sql`.
+2. Ejecutar el archivo `Portafolio modulo 3\SQL\schema.sql`.
+3. Ejecutar el archivo `Portafolio modulo 3\SQL\seed.sql`.
+4. Ejecutar el archivo `Portafolio modulo 3\SQL\queries.sql`.
 
 ## Resultados esperados
 
@@ -29,4 +29,4 @@ Portafolio modulo 3\Consultas.pdf
 
 Enlace al repositorio público de GitHub:
 
-[Pegar aquí el enlace del repositorio]
+https://github.com/scarlettcindy/ecommerce-db-m3
