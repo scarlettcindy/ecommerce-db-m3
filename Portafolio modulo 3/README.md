@@ -23,11 +23,7 @@ Al ejecutar los scripts se crean las tablas del ecommerce, se cargan datos de pr
 
 ## Evidencias
 
-- Diagrama ER: `docs/er.png`
-- Evidencia consulta 1: `docs/consulta1.png`
-- Evidencia consulta 2: `docs/consulta2.png`
-- Evidencia consulta 3: `docs/consulta3.png`
-- Evidencia consulta 4: `docs/consulta4.png`
+Portafolio modulo 3\Consultas.pdf
 
 ## Repositorio
 
